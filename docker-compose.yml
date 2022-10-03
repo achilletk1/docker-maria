@@ -20,7 +20,7 @@ services:
         expose:
             - '3306'
         ports:
-            - '3306:3306'
+            - '3066:3306'
         volumes:
             - /docker-maria/docker-maria/mysql:/var/lib/mysql
         restart: unless-stopped
